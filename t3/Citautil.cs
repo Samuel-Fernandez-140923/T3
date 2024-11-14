@@ -55,7 +55,7 @@ namespace t3
             Console.Write("Ingrese el texto a buscar en las universidades: ");
             string buscar = Console.ReadLine();
 
-            Console.Write("Ingrese el nuevo texto para reemplazar: ");
+            Console.Write("Ingrese el nuevo texto para reemplazar :): ");
             string reemplazar = Console.ReadLine();
 
             foreach (Cita cita in citas)
