@@ -27,7 +27,7 @@ namespace t3
             Console.Write(" enfermedad: ");
             string enfermedad = Console.ReadLine();
 
-            Console.Write("Ingrese el precio de la consulta: ");
+            Console.Write("Ingrese el precio de la consulta (EN SOLES) ");
             double precio = double.Parse(Console.ReadLine());
 
             Cita cita = new Cita(numero, estudiante, enfermedad, precio);
