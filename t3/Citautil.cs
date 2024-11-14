@@ -16,7 +16,7 @@ namespace t3
             Console.Write("Ingrese el código del estudiante: ");
             int codigo = int.Parse(Console.ReadLine());
 
-            Console.Write("Ingrese el nombre: ");
+            Console.Write("Ingrese el nombre del estudiante: ");
             string nombre = Console.ReadLine();
 
             Console.Write("Ingrese la universidad: ");
